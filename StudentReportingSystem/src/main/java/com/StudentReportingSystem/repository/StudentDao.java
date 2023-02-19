@@ -5,6 +5,6 @@ import org.springframework.stereotype.Repository;
 import com.StudentReportingSystem.model.Student;
 
 @Repository
-public interface StudentDao extends ElasticsearchRepository<Student, Integer> {
+public interface StudentDao extends ElasticsearchRepository<Student, String> {
 
 }
